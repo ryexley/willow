@@ -1,4 +1,5 @@
 module.exports = {
     "default": ["build"],
-    "build": ["jshint", "sass"]
+    "build": ["jshint", "style"],
+    "style": ["copy:normalize", "sass"]
 };

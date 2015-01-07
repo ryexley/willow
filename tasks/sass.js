@@ -1,11 +1,11 @@
 module.exports = {
     dist: {
         options: {
-            style: "expanded"
+            style: "compact"
         },
         files: {
-            "example/example.css": "src/example.scss",
-            "dist/willow.css": "src/willow.scss"
+            "example/example.css": "src/style/example.scss",
+            "dist/willow.css": "src/style/willow.scss"
         }
     }
 };
